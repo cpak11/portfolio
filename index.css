@@ -1,0 +1,57 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+a{color:inherit;text-decoration:none;}
+h1{font-size:3.7rem;}
+
+#mainframe{position:relative;font-family: 'Barlow', sans-serif;}
+
+#headerframe{
+	width:100%;height:100vh;
+	position:relative;
+	background-image:url(cboard.jpg);
+	background-size:cover;background-position:center;
+	color:rgb(235,235,235);
+}
+#headerframe h1{font-size:4rem;font-family: 'Homemade Apple', cursive;margin-top:5rem;}
+#headerframe h2{font-family: 'Gochi Hand', cursive;font-size:2.7rem;font-weight:400;}
+#headerframe p{font-family: 'Reenie Beanie', cursive;font-size:2.7rem;}
+#headerframe .txtdiv{text-align:center;}
+.navtxt{
+	display:flex;justify-content:space-around;
+	font-size:1.7rem;
+}
+#aboutframe{
+	width:100%;height:700px;
+	position:relative;
+	font-family: 'Barlow', sans-serif;
+}
+#aboutimg,#abouttxt{
+	width:50%;height:100%;	
+	background-color:ghostwhite;
+}
+#aboutimg{position:absolute;top:0;right:0;background:linear-gradient(-15deg,rgba(115,180,215,.6),rgba(230,145,205,.5)),url(prof.jpg);background-size:cover;}
+#abouttxt{position:absolute;}
+#abouttxt p{
+	display:inline-block;
+	font-size:1.25rem;
+	width:350px;
+	position:absolute;top:50%;left:50%;
+	transform:translate(-50%,-50%);
+}
+#projectsframe{background:silver;}
+.projects{text-align:center;}
+.project h3{font-size:2.5rem;padding:1rem;}
+.project img{height:300px;padding:1rem 1rem;}
+.project p{padding:1rem 25rem;}
+
+#skillsframe{}
+#skillsframe p{text-align:center;padding:1rem 0;font-size:1.2rem;}
+.skills{width:812px;margin:0 auto;}
+.skillimg{display:inline-block;width:200px;text-align:center;padding:20px 0;}
+.skillimg img{height:100px;}
+
+#contactframe{
+	color:rgb(245,245,245);background:rgb(55,55,55);
+	height:500px;
+}
+#contactframe .contxt{position:absolute;bottom:3rem;right:3rem;text-align:right;}
+#contactframe p{font-size:3rem;}
